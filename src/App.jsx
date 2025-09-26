@@ -1,10 +1,11 @@
 import React from "react";
+import Hero from "./component/Hero";
 
 const App = () => {
   return (
-    <div className="bg-blue-500 text-voilet-300 w-full h-[100vh] p-4 text-center">
-      Hello Tailwind in React
-    </div>
+    <main className="relative min-h-screen w-screen overflow-x-hidden">
+      <Hero />
+    </main>
   );
 };
 
