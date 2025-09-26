@@ -12,19 +12,23 @@ body {
 @layer base {
   @font-face {
     font-family: "circular-web";
-    src: url("/fonts/circularweb-book.woff2") format("wofff2");
+    src: url("/fonts/circularweb-book.woff2") format("woff2");
   }
   @font-face {
     font-family: "general";
-    src: url("/fonts/general.woff2") format("wofff2");
+    src: url("/fonts/general.woff2") format("woff2");
   }
   @font-face {
     font-family: "robert-medium";
-    src: url("/fonts/robert-medium.woff2") format("wofff2");
+    src: url("/fonts/robert-medium.woff2") format("woff2");
   }
   @font-face {
     font-family: "robert-regular";
-    src: url("/fonts/robert-regular .woff2") format("wofff2");
+    src: url("/fonts/robert-regular .woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "zentry";
+    src: url("../public/fonts/zentry-regular.woff2") format("woff2");
   }
 }
 @layer utilities {
@@ -53,12 +57,12 @@ body {
   }
 
   .special-font b {
-    font-family: "Zentry";
+    font-family: "zentry";
     font-feature-settings: "ss01" on;
   }
 
   .hero-heading {
-    @apply uppercase font-zentry font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem];
+    @apply uppercase font-zentry font-black text-9xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[9rem];
   }
 
   .about-subtext {
