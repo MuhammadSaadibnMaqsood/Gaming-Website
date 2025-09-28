@@ -262,3 +262,13 @@ body {
     opacity: 0.8;
   }
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: none;
+}
